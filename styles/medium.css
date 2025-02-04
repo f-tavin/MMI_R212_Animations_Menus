@@ -1,0 +1,39 @@
+body {
+    grid-template-rows: 100px auto 50px;
+    grid-template-columns: 200px auto;
+}
+
+header {
+    grid-column: 1 / span 2;
+    grid-row : 1;
+}
+
+header>p {
+    font-size: 3vw;
+    font-weight: 500;
+}
+
+nav {
+    grid-column: 1;
+    grid-row : 2;
+}
+
+main {
+    grid-column: 2;
+    grid-row : 2;
+}
+
+footer {
+    grid-column: 1 / span 2;
+    grid-row : 3;
+}
+
+menu {
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+main {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 15px;
+}
