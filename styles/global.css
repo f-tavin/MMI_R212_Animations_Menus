@@ -14,6 +14,11 @@ header {
 header>img {
     height:100%;
     width:auto;
+    transition: transform 2s;
+}
+
+header>img:hover {
+    transform:rotate(0.5turn);
 }
 
 header>p {
