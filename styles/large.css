@@ -12,6 +12,10 @@ menu {
     flex-direction: row;
 }
 
+.menu-reversed {
+    flex-direction: row-reverse;
+}
+
 main {
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 30px;
