@@ -65,4 +65,9 @@ article>h1 {
 
 article>p {
     text-align: justify;
+    transition: background-color 2s;
+}
+
+article>p:hover {
+    background-color: #f7f2ef;
 }
