@@ -31,13 +31,37 @@ nav {
 }
 
 menu {
+    margin: 0px;
+}
+
+menu, menu>li>ul {
     display: flex;
     list-style-type : none;
-    margin: 0px;
 }
 
 menu>li {
     padding: 5px;
+    position: relative;
+}
+
+menu>li>ul {
+    flex-direction: column;
+    padding: 5px;
+    position: absolute;
+    background-color: #a10e2f;
+    opacity: 0;
+    visibility: hidden;
+    transition: visibility 0.5s, opacity 0.5s;
+}
+
+menu>li>ul>li {
+    width:max-content;
+    margin: 5px;
+}
+
+.menu-active {
+    visibility: visible;
+    opacity: 1;
 }
 
 footer {
