@@ -59,7 +59,7 @@ menu>li>ul>li {
     margin: 5px;
 }
 
-.menu-active {
+menu>li:hover>ul {
     visibility: visible;
     opacity: 1;
 }
